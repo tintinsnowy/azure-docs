@@ -56,7 +56,7 @@ The **QueueService** object lets you work with queues. The following code create
 from azure.storage.queue import QueueService
 ```
 
-The following code creates a **QueueService** object using the storage account name and account key. Replace 'myaccount' and 'mykey' with your account name and key.
+The following code creates a **QueueService** object using the storage account name and account key. Replace 'myaccount' and 'mykey' with your storage account name and access key.
 
 ```python
 queue_service = QueueService(account_name='myaccount', account_key='mykey')
